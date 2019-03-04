@@ -4,31 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>The Psychic Game</title>
   </head>
   <body>
-    <h1>The Psychic Game</h1>
+    <div class="wrapper">
+      <div class="container">
+        <h1>The Psychic Game</h1>
 
-    <p>Guess what letter I'm thinking of</p>
+        <p>Guess what letter I'm thinking of, go on press a letter . . .</p>
 
-    <p>
-      Wins:
-      <span id="wins"></span>
-    </p>
-    <p>
-      Losses:
-      <span id="losses"></span>
-    </p>
+        <br />
 
-    <p>
-      Guesses left:
-      <span id="lives"></span>
-    </p>
+        <p><span id="wins"></span></p>
 
-    <p>
-      Your Guesses so far:
-      <span id="guesses"></span>
-    </p>
+        <p><span id="losses"></span></p>
+
+        <p><span id="lives"></span></p>
+
+        <p><span id="guesses"></span></p>
+      </div>
+
+      <img src="assets/images/moon.gif" />
+    </div>
 
     <script type="text/javascript" src="./assets/javascript/game.js"></script>
   </body>
