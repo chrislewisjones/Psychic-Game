@@ -1,3 +1,5 @@
+// first set the variables and an alphabet for the computer to choose from
+
 var guess;
 var wins = 0;
 var losses = 0;
@@ -31,9 +33,14 @@ var computer = [
   "y",
   "z"
 ];
+var computerChoice;
+
+//Computer to make a choice:
 
 var computerChoice = computer[Math.floor(Math.random() * computer.length)];
 console.log(computerChoice);
+
+// user then makes their guesses
 
 document.onkeydown = function(event) {
   var guess = event.key;
